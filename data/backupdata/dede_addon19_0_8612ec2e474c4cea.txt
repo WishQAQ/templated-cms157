@@ -1,0 +1,5 @@
+INSERT INTO `dede_addon19` VALUES('4158','63','','','120.4.121.170','http://player.youku.com/player.php/partnerid/XOTA4/sid/XMTQ5OTkwMTEy/v.swf','');
+INSERT INTO `dede_addon19` VALUES('4159','63','','','120.4.121.170','http://player.youku.com/player.php/partnerid/XOTA4/sid/XMTUzOTQ2ODAw/v.swf','');
+INSERT INTO `dede_addon19` VALUES('4160','63','','','120.4.121.170','http://player.youku.com/player.php/partnerid/XOTA4/sid/XMTY5ODIwNTk2/v.swf','');
+INSERT INTO `dede_addon19` VALUES('4161','63','','','120.4.121.170','http://player.youku.com/player.php/partnerid/XOTA4/sid/XMTI2Mjc2NzQ0/v.swf','');
+INSERT INTO `dede_addon19` VALUES('4162','63','','','120.4.121.170','http://player.youku.com/player.php/partnerid/XOTA4/sid/XMTQxNDE1MDgw/v.swf','');

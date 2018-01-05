@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+	<title>导航设计模式的重要意义_html5响应式手机自适应资源共享类织梦模板</title>
+	<link href="/style/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+	<!--theme-style-->
+	<link href="/style/css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!--//theme-style-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<script src="/style/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/style/js/move-top.js"></script>
+	<script type="text/javascript" src="/style/js/easing.js"></script>
+	<!--[if lt IE 9]>
+        <script src="/style/js/html5shiv.js"></script>
+        <script src="/style/js/respond.min.js"></script>
+        <link href="/style/css/ie.css" rel="stylesheet">
+<![endif]-->
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script>
+	</head>
+	<body>
+<div class="header-home">
+		<div class="container">
+			<div class="fixed-header">
+				<div class="logo">
+					<a href="/"><img src="/style/images/logo-1.png" alt="" /></a>
+				</div>
+				<div class="top-nav">
+						<span class="menu"> </span>
+					<ul>
+						<li><a href="/#home" >首页</a></li>
+						<li><a href="/#about" >关于我们</a></li>
+						<li><a href="/#team" >团队简介</a></li>
+						<li><a href="/#services" >服务中心</a></li>
+						<li><a href="/#portfolio" >作品案例</a></li>
+						<li><a href="/#contact" >联系我们</a></li>
+					</ul>
+				<!-- script-nav -->
+			<script>
+			$("span.menu").click(function(){
+				$(".top-nav ul").slideToggle(500, function(){
+				});
+			});
+			</script>
+			<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>
+				<!-- //script-nav -->
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<div>
+      <div class="topbanner">
+    <h3>查<span>看内</span>容</h3>
+    <br>
+  </div>
+      <div class="container">
+    <div class="row" style="margin-bottom:50px; line-height:30px; color:#8c9398">
+          <h1 class="arrow text-center " style=" padding:30px 0px; margin:0 auto; font-size:20px; border-bottom:1px solid #CCCCCC; width:90%">导航设计模式的重要意义</h1>
+          <div style="margin-top:20px"> <p style="line-height:23px;text-indent:nullem;text-align:left">
+	<strong>Gmai</strong>就 是单页应用的一个很好的例子，其将多项操作融入了一个单独的&ldquo;页面&rdquo;中。单页设计的趋势是这一UI模式中相对不太高端的一种实现方式，在这一设计模式下， 所有内容均可通过同一页面访问。这一模式可以让浏览变得更快、响应更迅速，从而让桌面与web应用之间的界限不再如此分明。</p>
+<p style="line-height:23px;text-indent:nullem;text-align:left">
+	&nbsp;</p>
+<p style="line-height:23px;text-indent:nullem;text-align:left">
+	对于Spotify等web应用，考虑到用户有时会在背景播放音乐的同时浏览其他音乐，这时单页应用模式的重要性就愈发凸显，通过使用单页应用，用户就无需对页面进行重新加载，也不会造成音乐停止播放。</p>
+<font face="微软雅黑,">在 使用单页应用时需要考虑的一个问题就是URL结构。由于内容使用JavaScript动态加载，URL会失去作用，如果设计不当，还会造成无法访问特定视 图。Gmail和Twitter等应用通过为每个视图生成专门的URL来克服这一问题，这一方法还能够解决浏览器后退按钮失效的问题。</font> </div>
+        </div>
+  </div>
+    </div>
+<div class="footer">
+	<div class="container">
+		<a href="#"><h4 class="footer-class">深圳市南山区高新园区科技园B幢-888号</h4></a>		
+		 <p class="class-footer">Copyright &#169; 2002-2015 站窝窝 版权所有辽ICP备88888888号</p>
+		<div class="clearfix"> </div>
+	</div>
+					<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+</body>
+</html>

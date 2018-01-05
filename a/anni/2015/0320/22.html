@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+	<title>原生App切图的那些事儿_html5响应式手机自适应资源共享类织梦模板</title>
+	<link href="/style/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+	<!--theme-style-->
+	<link href="/style/css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!--//theme-style-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<script src="/style/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/style/js/move-top.js"></script>
+	<script type="text/javascript" src="/style/js/easing.js"></script>
+	<!--[if lt IE 9]>
+        <script src="/style/js/html5shiv.js"></script>
+        <script src="/style/js/respond.min.js"></script>
+        <link href="/style/css/ie.css" rel="stylesheet">
+<![endif]-->
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script>
+	</head>
+	<body>
+<div class="header-home">
+		<div class="container">
+			<div class="fixed-header">
+				<div class="logo">
+					<a href="/"><img src="/style/images/logo-1.png" alt="" /></a>
+				</div>
+				<div class="top-nav">
+						<span class="menu"> </span>
+					<ul>
+						<li><a href="/#home" >首页</a></li>
+						<li><a href="/#about" >关于我们</a></li>
+						<li><a href="/#team" >团队简介</a></li>
+						<li><a href="/#services" >服务中心</a></li>
+						<li><a href="/#portfolio" >作品案例</a></li>
+						<li><a href="/#contact" >联系我们</a></li>
+					</ul>
+				<!-- script-nav -->
+			<script>
+			$("span.menu").click(function(){
+				$(".top-nav ul").slideToggle(500, function(){
+				});
+			});
+			</script>
+			<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>
+				<!-- //script-nav -->
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<div>
+      <div class="topbanner">
+    <h3>查<span>看内</span>容</h3>
+    <br>
+  </div>
+      <div class="container">
+    <div class="row" style="margin-bottom:50px; line-height:30px; color:#8c9398">
+          <h1 class="arrow text-center " style=" padding:30px 0px; margin:0 auto; font-size:20px; border-bottom:1px solid #CCCCCC; width:90%">原生App切图的那些事儿</h1>
+          <div style="margin-top:20px"> <div align="left">
+	<font style="color:rgb(120, 120, 120)"><font face="Tahoma, simsun"><font style="font-size:12px">最小的分辨率是320x480，我们把这个尺寸定为基准界面尺寸（baseline），基准尺寸所用的图标定为1倍图（1x）。 </font></font></font></div>
+<br />
+<div align="left">
+	<font style="color:rgb(120, 120, 120)"><font face="Tahoma, simsun"><font style="font-size:12px">在 实际设计过程中，为了降低设计成本，一般拿设备最高的分辨率作为设计稿的原始尺寸，拿iphone来说就是iphone5或5s的640x1136啦，当 然也可以用iphone4或4s的640x960，因为宽度都是640px，他们切图的标准是一样的。显然，以1倍图的基准尺寸（宽320px）为相对的 参考依据，宽640px的设计稿，以原始尺寸切出来的图标称为2倍图（2x）。</font></font></font></div>
+<div align="left">
+	&nbsp;</div>
+<div align="left">
+	<font style="color:rgb(120, 120, 120)"><font face="Tahoma, simsun"><font style="font-size:12px">有人可能会问：为什么不拿320px作为设计稿的原始尺寸呢？因为1倍图放大成为2倍图远比2倍图缩小成1倍图来得模糊！</font></font></font></div>
+<div align="left">
+	&nbsp;</div>
+<div align="left">
+	<font style="color:rgb(120, 120, 120)"><font face="Tahoma, simsun"><font style="font-size:12px">于是，在不考虑iphone6和iphone 6 plus的情况下，为了适配iphone，每个图标需要切两份。</font></font></font></div>
+<div align="left">
+	&nbsp;</div>
+<strong><font style="font-size:14px">Android - 更为繁多的界面尺寸</font></strong><br />
+<br />
+<br />
+<div align="left">
+	<font style="color:rgb(120, 120, 120)"><font face="Tahoma, simsun"><font style="font-size:12px">Android开源自由的代价就是设备规范的不可控，市面上充斥着各种品牌的android手机，有着各种各样的尺寸和分辨率，为了适配各种不同分辨率的设备，同一个图标需要切成N份，每一份对应一个尺寸。</font></font></font></div>
+<div align="left">
+	&nbsp;</div>
+<div align="left">
+	<font style="color:rgb(120, 120, 120)"><font face="Tahoma, simsun"><font style="font-size:12px">另外需要注意的是，Android里面开发用的尺寸单位是dp或sp（dp为元素表现尺寸，sp为字体尺寸）而不是iphone中的px。。。</font></font></font></div>
+ </div>
+        </div>
+  </div>
+    </div>
+<div class="footer">
+	<div class="container">
+		<a href="#"><h4 class="footer-class">深圳市南山区高新园区科技园B幢-888号</h4></a>		
+		 <p class="class-footer">Copyright &#169; 2002-2015 站窝窝 版权所有辽ICP备88888888号</p>
+		<div class="clearfix"> </div>
+	</div>
+					<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+</body>
+</html>

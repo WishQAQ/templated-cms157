@@ -1,0 +1,4 @@
+INSERT INTO `dede_kwcache` VALUES('12','1','http://www.xywy.com/dzjk/nrsj/jmjs');
+INSERT INTO `dede_kwcache` VALUES('11','1','http://www.39.net/sports');
+INSERT INTO `dede_kwcache` VALUES('9','1','http://www.xici.net/t_%BD%A1%C9%ED.htm');
+INSERT INTO `dede_kwcache` VALUES('10','1','http://health.sohu.com/kangtijianshen.shtml');

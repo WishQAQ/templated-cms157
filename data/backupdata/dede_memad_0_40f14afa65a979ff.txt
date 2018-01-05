@@ -1,0 +1,1 @@
+INSERT INTO `dede_memad` VALUES('4','会员中心首页广告','2','10','10','1','2','','1','1','1418785129','1419389929','/uploads/userup/1/141WTU3-6221.jpg','http://www.adminbuy.cn','','','0','0');

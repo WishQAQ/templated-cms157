@@ -1,0 +1,1 @@
+INSERT INTO `dede_memad_type` VALUES('2','会员中心','1','1');

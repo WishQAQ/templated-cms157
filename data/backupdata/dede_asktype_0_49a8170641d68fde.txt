@@ -1,0 +1,6 @@
+INSERT INTO `dede_asktype` VALUES('1','前列腺疾病','0','0','0');
+INSERT INTO `dede_asktype` VALUES('2','性功能障碍','0','0','0');
+INSERT INTO `dede_asktype` VALUES('3','生殖感染','0','0','0');
+INSERT INTO `dede_asktype` VALUES('4','生殖整形','0','0','0');
+INSERT INTO `dede_asktype` VALUES('5','男性不育','0','0','0');
+INSERT INTO `dede_asktype` VALUES('6','性病','0','0','0');

@@ -1,0 +1,37 @@
+<div class="header-home">
+		<div class="container">
+			<div class="fixed-header">
+				<div class="logo">
+					<a href="/"><img src="{dede:global.cfg_cmsurl/}/style/images/logo-1.png" alt="" /></a>
+				</div>
+				<div class="top-nav">
+						<span class="menu"> </span>
+					<ul>
+						<li><a href="{dede:global.cfg_cmsurl/}/#home" >首页</a></li>
+						<li><a href="{dede:global.cfg_cmsurl/}/#about" >关于我们</a></li>
+						<li><a href="{dede:global.cfg_cmsurl/}/#team" >团队简介</a></li>
+						<li><a href="{dede:global.cfg_cmsurl/}/#services" >服务中心</a></li>
+						<li><a href="{dede:global.cfg_cmsurl/}/#portfolio" >作品案例</a></li>
+						<li><a href="{dede:global.cfg_cmsurl/}/#contact" >联系我们</a></li>
+					</ul>
+				<!-- script-nav -->
+			<script>
+			$("span.menu").click(function(){
+				$(".top-nav ul").slideToggle(500, function(){
+				});
+			});
+			</script>
+			<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>
+				<!-- //script-nav -->
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>

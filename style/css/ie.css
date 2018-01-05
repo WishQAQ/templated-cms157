@@ -1,0 +1,11 @@
+/* ==========================================================================
+IE ä¯ÀÀÆ÷¼æÈÝ by www.zhanoo.com
+========================================================================== */
+nav ul li a{ color:#CCCCCC}
+nav ul li{ border-bottom:1px dotted #666666}
+.container, .features-wrapper{ width:1160px; }
+.col-md-offset-2 p{ width:800px; margin:0 auto;}
+.col-md-4{ width:375px; float:left;}
+.col-md-offset-7{ margin-left:620px;}
+.effects .img{ height:200px;}
+.col-md-6{ width:570px; float:left}

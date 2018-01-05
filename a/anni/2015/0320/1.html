@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+	<title>UX与UI不是对立而是共生_html5响应式手机自适应资源共享类织梦模板</title>
+	<link href="/style/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+	<!--theme-style-->
+	<link href="/style/css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!--//theme-style-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<script src="/style/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/style/js/move-top.js"></script>
+	<script type="text/javascript" src="/style/js/easing.js"></script>
+	<!--[if lt IE 9]>
+        <script src="/style/js/html5shiv.js"></script>
+        <script src="/style/js/respond.min.js"></script>
+        <link href="/style/css/ie.css" rel="stylesheet">
+<![endif]-->
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script>
+	</head>
+	<body>
+<div class="header-home">
+		<div class="container">
+			<div class="fixed-header">
+				<div class="logo">
+					<a href="/"><img src="/style/images/logo-1.png" alt="" /></a>
+				</div>
+				<div class="top-nav">
+						<span class="menu"> </span>
+					<ul>
+						<li><a href="/#home" >首页</a></li>
+						<li><a href="/#about" >关于我们</a></li>
+						<li><a href="/#team" >团队简介</a></li>
+						<li><a href="/#services" >服务中心</a></li>
+						<li><a href="/#portfolio" >作品案例</a></li>
+						<li><a href="/#contact" >联系我们</a></li>
+					</ul>
+				<!-- script-nav -->
+			<script>
+			$("span.menu").click(function(){
+				$(".top-nav ul").slideToggle(500, function(){
+				});
+			});
+			</script>
+			<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>
+				<!-- //script-nav -->
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<div>
+      <div class="topbanner">
+    <h3>查<span>看内</span>容</h3>
+    <br>
+  </div>
+      <div class="container">
+    <div class="row" style="margin-bottom:50px; line-height:30px; color:#8c9398">
+          <h1 class="arrow text-center " style=" padding:30px 0px; margin:0 auto; font-size:20px; border-bottom:1px solid #CCCCCC; width:90%">UX与UI不是对立而是共生</h1>
+          <div style="margin-top:20px"> <font style="font-size:14px">对于网站来说，公司设计团队完善UI的目的通常是为了提高UX。菜单项、按钮、文字、图像、视频以及其各自在页面上的位置构成了界面，所有这些要素都应当仔细规划。而这些就是UX的组成元素，它们的使用方式直接影响着用户的感觉。</font><br />
+<br />
+<font style="font-size:14px">我们首先通过几个示例来概览一下UI，说明有哪些策略可以帮助你了解为什么优秀的UX取决于UI的优劣，然后再详细讲解一下为什么塑造UI要比塑造UX容易（虽容易，但不一定就能做对）。</font><br />
+<br />
+<strong><font style="font-size:14px">Web端UI的是与非</font></strong><br />
+<br />
+<font style="font-size:14px">在web端，比方说设计师想添加拖拽文件作为整理内容的方式。这就属于UI的范畴。又比方说用户觉得这个网站没有另一家竞争对手的网站做得好，因为在另一家网站上用户能够轻松简单地听几个小时的音乐。这就属于UX的范畴。</font> </div>
+        </div>
+  </div>
+    </div>
+<div class="footer">
+	<div class="container">
+		<a href="#"><h4 class="footer-class">深圳市南山区高新园区科技园B幢-888号</h4></a>		
+		 <p class="class-footer">Copyright &#169; 2002-2015 站窝窝 版权所有辽ICP备88888888号</p>
+		<div class="clearfix"> </div>
+	</div>
+					<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+</body>
+</html>

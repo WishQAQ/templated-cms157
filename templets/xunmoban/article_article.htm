@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+	<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+	<link href="{dede:global.cfg_cmsurl/}/style/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+	<!--theme-style-->
+	<link href="{dede:global.cfg_cmsurl/}/style/css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!--//theme-style-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<script src="{dede:global.cfg_cmsurl/}/style/js/jquery.min.js"></script>
+	<script type="text/javascript" src="{dede:global.cfg_cmsurl/}/style/js/move-top.js"></script>
+	<script type="text/javascript" src="{dede:global.cfg_cmsurl/}/style/js/easing.js"></script>
+	<!--[if lt IE 9]>
+        <script src="{dede:global.cfg_cmsurl/}/style/js/html5shiv.js"></script>
+        <script src="{dede:global.cfg_cmsurl/}/style/js/respond.min.js"></script>
+        <link href="{dede:global.cfg_cmsurl/}/style/css/ie.css" rel="stylesheet">
+<![endif]-->
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script>
+	</head>
+	<body>
+{dede:include filename="head.htm"/}
+<div>
+      <div class="topbanner">
+    <h3>²é<span>¿´ÄÚ</span>ÈÝ</h3>
+    <br>
+  </div>
+      <div class="container">
+    <div class="row" style="margin-bottom:50px; line-height:30px; color:#8c9398">
+          <h1 class="arrow text-center " style=" padding:30px 0px; margin:0 auto; font-size:20px; border-bottom:1px solid #CCCCCC; width:90%">{dede:field.title/}</h1>
+          <div style="margin-top:20px"> {dede:field.body/} </div>
+        </div>
+  </div>
+    </div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>

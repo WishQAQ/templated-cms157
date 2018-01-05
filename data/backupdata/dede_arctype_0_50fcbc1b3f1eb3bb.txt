@@ -1,0 +1,2 @@
+INSERT INTO `dede_arctype` VALUES('3','0','0','999','在线留言','http://127.0.0.1/plus/guestbook.php','1','guestbook.php','0','1','-1','2','0','','','','','','default','','','','0','','','0','0','0','','');
+INSERT INTO `dede_arctype` VALUES('4','0','1','50','案例展示','{cmspath}/a/anni','1','index.html','1','2','-1','0','0','{style}/index_image.htm','{style}/list_image.htm','{style}/article_article.htm','{typedir}/{Y}/{M}{D}/{aid}.html','{typedir}/list_{tid}_{page}.html','default','','','','0','{cmspath}/a/kefuanli','','0','0','','&nbsp;','');
